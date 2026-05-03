@@ -255,5 +255,3 @@ This system enables investigation of:
 ## 📄 License
 
 This project was completed as part of academic coursework at the University of Illinois. All design documents, schematics, and source code are for educational purposes.
-
----
