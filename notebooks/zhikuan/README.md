@@ -148,7 +148,6 @@ Trace width: 0.25mm (10 mil) over ground plane
 - **Calculation:** At 10mm, parasitic inductance ≈ 10nH → resonance with 100nF cap at 50MHz (too low)
 
 #### Schematic Screenshots
-![Power Subsystem Schematic](images/week1_power_schematic.png)
 *Figure 1.1: Power management schematic with battery charging and voltage regulation*
 
 #### Test Plan for Next Week
@@ -275,7 +274,6 @@ Frequency components:
   - 120 Hz (mains interference, minimal)
 ```
 
-![Oscilloscope screenshot](images/week2_ripple_measurement.png)
 *Figure 2.1: Voltage ripple on 1.8V AVDD rail during 50mA load switching*
 
 **4. Battery Charging Test**
@@ -467,7 +465,6 @@ max86141_write_reg(0x12, 0x53);
 - LED flashes at ~200 Hz (too fast for eye, verified with phone camera in slow-motion mode)
 - Measured LED current with oscilloscope current probe: 48.7mA ✓
 
-![LED pulse waveform](images/week3_led_pulse.png)
 *Figure 3.1: MAX86141 LED drive current waveform (50mA, 100µs pulse width)*
 
 **3. Photodiode Signal Acquisition**
@@ -498,7 +495,6 @@ Signal swing: 7000 counts (13% modulation depth) ✓
 - Pulse arrival time visible: Sharp upstroke followed by dicrotic notch
 - SNR estimate: ~25 dB (calculated from peak-to-peak signal vs noise floor)
 
-![PPG waveform](images/week3_ppg_waveform.png)
 *Figure 3.2: Raw PPG waveform captured from index finger (30-second window)*
 
 **4. ECG Subsystem Integration**
@@ -574,7 +570,6 @@ Interrupt pulse width: 50µs (low-active pulse)
 False positive rate: 0 over 60-second test ✓
 ```
 
-![ECG with R-peak interrupt](images/week3_ecg_r_peak.png)
 *Figure 3.3: ECG waveform (Ch1) with R-peak detection interrupt (Ch2)*
 
 **6. PCB Revision 3 Design Improvements**
@@ -844,7 +839,6 @@ Inter-channel skew: 0.18 ms (measured std dev)
 Total (RSS): √(0.5² + 0.2² + 0.18²) = 0.57 ms ✓
 ```
 
-![Timing jitter distribution](images/week4_jitter_histogram.png)
 *Figure 4.1: Inter-channel timing jitter histogram (100 samples)*
 
 **5. Bluetooth Low Energy (BLE) Service Implementation**
@@ -886,7 +880,6 @@ Measured throughput: 31.2 kB/s (91% efficiency) ✓
 - Successfully subscribed to ECG and PPG characteristics
 - Received continuous data stream for 5 minutes with zero packet loss ✓
 
-![nRF Connect screenshot](images/week4_nrf_connect_app.png)
 *Figure 4.2: nRF Connect app showing ECG/PPG data characteristics*
 
 **6. Power Consumption Measurement**
@@ -1181,7 +1174,6 @@ const ecgChart = new Chart(ctx, {
 
 **Screenshot of Web Interface:**
 
-![Web plotter interface](images/week5_web_plotter.png)
 *Figure 5.1: Real-time ECG and bilateral PPG waveform visualization*
 
 **3. Multi-Channel Data Synchronization Testing**
@@ -1228,7 +1220,6 @@ Calculated pulse transit time (PTT) as time difference between ECG R-peak and PP
 - Standard deviation of 5ms indicates measurement noise, but still usable signal
 - No statistically significant asymmetry detected (expected for healthy subject)
 
-![Bilateral PTT measurement](images/week5_ptt_measurement.png)
 *Figure 5.2: ECG R-peak aligned with bilateral PPG upstrokes*
 
 **4. Head Tilt Test - Postural Effect on PTT**
@@ -1261,7 +1252,6 @@ Tilting head to one side may alter blood flow dynamics, causing bilateral PTT as
 - Right earlobe PTT decreases (blood flows "downhill" with gravity assist)
 - Effect is symmetric and reversible → validates measurement system sensitivity ✓
 
-![Head tilt PTT graph](images/week5_head_tilt_ptt.png)
 *Figure 5.3: Bilateral PTT difference during head tilt maneuvers*
 
 **5. Progress Demo Preparation**
@@ -1481,7 +1471,6 @@ Post-hoc pairwise comparisons (Tukey HSD):
 - Effect size is large (~18ms) and consistent across subjects (SD = 3ms)
 - System successfully detects postural changes with high sensitivity ✓
 
-![Multi-subject PTT results](images/week6_multisubject_ptt.png)
 *Figure 6.1: Bilateral PTT difference across 5 subjects during head tilt maneuvers*
 
 **2. PCB Revision 3 Testing**
@@ -1599,7 +1588,6 @@ Assembled 1× ECG board and 2× PPG boards (Rev 3).
 - File size: 342 MB
 - Uploaded to YouTube (unlisted): [Link to be added]
 
-![Video thumbnail](images/week6_demo_video_thumbnail.png)
 *Figure 6.2: Screenshot from final demo video*
 
 **5. Final Report Documentation Assembly**
@@ -1813,7 +1801,6 @@ No more crashes after fix ✓
 
 **Live Demo Screenshot:**
 
-![Final demo photo](images/week7_final_demo_photo.jpg)
 *Figure 7.1: Live demonstration with projected waveforms and volunteer*
 
 **Results Summary (3 minutes):**
