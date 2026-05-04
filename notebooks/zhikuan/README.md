@@ -2081,7 +2081,7 @@ When the live demo worked flawlessly on the first try during the final presentat
 - [x] Final demo presented (4/24)
 - [x] Final report submitted (4/27)
 - [x] Demo video uploaded (YouTube unlisted link)
-- [x] Code repository shared (GitHub: github.com/ece445-team40-bilateral-ptt)
+- [x] Code repository shared
 - [x] Lab notebook completed (this document)
 - [x] Team peer evaluation submitted (Joshua compiled)
 - [x] All borrowed equipment returned (oscilloscope, logic analyzer)
@@ -2112,7 +2112,7 @@ This project was the most challenging and rewarding engineering experience of my
 Looking forward to applying these skills in industry (or grad school)!
 
 #### References
-1. IEEE Code of Ethics: [www.ieee.org/about/corporate/governance/p7-8.html](https://www.ieee.org/about/corporate/governance/p7-8.html)
+1. IEEE Code of Ethics
 2. University of Illinois ECE 445 Course Website: Final Report Guidelines, Spring 2026
 3. All technical datasheets and application notes cited in previous weeks
 
@@ -2226,7 +2226,7 @@ ECE445_BilateralPTT_Archive/
 ```
 
 **Backup Locations:**
-1. **GitHub Repository:** [github.com/zzk-ece445-bilateral-ptt](https://github.com/zzk-ece445-bilateral-ptt) (private)
+1. **GitHub Repository:** Private repository
 2. **Google Drive:** Shared with team members (Joshua, Mark)
 3. **External SSD:** 1 TB Samsung T7 (local backup)
 
@@ -2314,7 +2314,7 @@ ECE445_BilateralPTT_Archive/
 
 **Long-Term (1-2 Years):**
 - **Open-Source Hardware Release:**
-  - Publish schematics, PCB layout, and firmware on GitHub
+  - Publish schematics, PCB layout, and firmware online
   - Write detailed build guide for DIY community
   - Potential for crowdfunding campaign (Kickstarter/Indiegogo)
 
@@ -2662,7 +2662,7 @@ Electrodes → 47kΩ Safety Resistors → AC Coupling (1µF) → MAX30003 Differ
                                                         SPI Output to nRF52840
 ```
 
-### F. GitHub Repository Structure
+### F. Code Repository Structure
 
 ```
 ece445-bilateral-ptt/
