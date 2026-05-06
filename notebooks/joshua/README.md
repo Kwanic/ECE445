@@ -31,22 +31,22 @@
 3. Breakout boards didn't arrive in time — pivoted to ECG sensor that did arrive
 4. Tested ECG using a waveform generator connected via MATLAB
 
-![Complete ECG Board — first hardware iteration](images/ecg_full.jpg)
+![Complete ECG Board — first hardware iteration](ecg_full.jpg)
 
 ## WEEK 5 — 3/9
 1. Completed teamwork evaluation
 2. Began finding alternative connection methods using VSCode
 3. Ordered redesigned PPG sensor board — consolidated two PPG sensors onto one board using a single NRF52840
 4. Continuing to learn firmware software
-
+5. ![Project Screenshot](https://github.com/Kwanic/ECE445/blob/main/notebooks/joshua/connect.png)
 ## WEEK 6 — 3/16
 1. Spring break — finished nRF Connect SDK online course
 2. Double-checked ECG schematics
 3. Changed PPG sensor design: added long serpentine traces to keep photodiode resistors near earlobes, making the PCB more flexible and wearable
 
-![nRF Connect SDK Certificate of Completion](images/nrfcard.png)
+![nRF Connect SDK Certificate of Completion](nrfcard.png)
 
-![ECG PCB Layout — component placement](images/ecg_pcb.png)
+![ECG PCB Layout — component placement](ecg_pcb.png)
 
 ![Serpentine Wire PPG Design Iteration](images/snakyppgdesign.png)
 
