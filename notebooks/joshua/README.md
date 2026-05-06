@@ -6,7 +6,7 @@
 3. Researched MAX86141 and SFH-7050A to see how the chips function
 4. Wrote up the proposal
 
-![PQRST Wave — the ECG wave used to calculate heart rate](images/pqrst_wave.png)
+![PQRST Wave — the ECG wave used to calculate heart rate](pqrst_wave.png)
 
 ## WEEK 2 — 2/16
 1. Started a course in nRF Connect SDK online, learning to code via Nordic Semiconductor
@@ -21,7 +21,7 @@
 4. First round of ECG board completed and ordered
 5. Designed breakout boards since PPG board will not arrive in time
 
-![ECG Schematic — MAX30003 chip on ECG sensor](images/max86.png)
+![ECG Schematic — MAX30003 chip on ECG sensor](max86.png)
 
 ![NRF Schematic — NRF52840 portion of ECG board](nrf_sch.png)
 
@@ -48,19 +48,19 @@
 
 ![ECG PCB Layout — component placement](ecg_pcb.png)
 
-![Serpentine Wire PPG Design Iteration](images/snakyppgdesign.png)
+![Serpentine Wire PPG Design Iteration](snakyppgdesign.png)
 
 ## WEEK 7 — 3/23
 1. Prepared for progress demo — tested PPG sensor using a flashlight to show peaks on phone app
 2. Continuing daily testing trying to implement full software working with finger measurements
 
-![PPG Data — showing high noise levels on raw signal](images/ppg_data.png)
+![PPG Data — showing high noise levels on raw signal](ppg_data.png)
 
 ## WEEK 8 — 3/30
 1. Finger measurements showing too much noise on the plot — performing root cause analysis
 2. Connected PPG via phone app for the progress demo
 
-![PPG Board — current hardware iteration](images/ppg_full.jpg)
+![PPG Board — current hardware iteration](ppg_full.jpg)
 
 ## WEEK 9 — 4/6
 1. Progress demo completed — showed PPG working with flashlight to demonstrate waveform peaks
@@ -69,7 +69,7 @@
 4. Added software filters which made the flashlight signal clear but finger readings still showed no valid values
 5. Main suspected issue: incorrect potential difference supplied to the photodiode
 
-![PPG Photodiode Routing Issue — suspected PCB routing problem near PDR](images/ppg_tab.png)
+![PPG Photodiode Routing Issue — suspected PCB routing problem near PDR](ppg_tab.png)
 
 ## WEEK 10 — 4/13
 1. Encountering major noise on all PPG pulse readings
@@ -94,4 +94,4 @@
 5. Final presentation ready for next week
 6. Working on final paper and lab notebook
 
-![PPG Solder Mask Issue — grounding pin defect identified as core PPG failure cause](images/solder_issue.png)
+![PPG Solder Mask Issue — grounding pin defect identified as core PPG failure cause](solder_issue.png)
